@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*Recherche*/
+.search-sec {
+    padding: 2rem;
+}
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+.search-btn {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+/*Formulaire */
+
+input[type=text], input[type=password], input[type=email] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float:right;
+  margin-right:10%;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-left : 10%;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width:50%;
+
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
